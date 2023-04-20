@@ -23,7 +23,12 @@
 #define STACK_SIZE 16
 #define KEY_SIZE 16
 
+#define MAX_SIZE (0x1000-0x200)
 
-
+void chip8_init();
+void load(char *game);
+void emulate_cycle();
+void setkeys();
+void tick();
 
 #endif
