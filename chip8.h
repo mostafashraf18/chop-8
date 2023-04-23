@@ -15,13 +15,17 @@
 #include <string.h>
 #include <time.h>
 
+#define true 1
+#define false 0
+#define bool int
+
 
 #define MEMORY_SIZE 4096
 #define G_COL 32
 #define G_ROW 64
 #define GFX_SIZE (G_ROW * G_COL)
 #define STACK_SIZE 16
-#define KEY_SIZE 16
+#define KEY_SIZE 
 
 #define MAX_SIZE (0x1000-0x200)
 
